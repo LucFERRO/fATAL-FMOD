@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{00dd675c-693c-4d51-985f-a72c6c96bb08}">
+		<property name="name">
+			<value>numberOfTiles</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{81c6eedd-9696-45b0-8429-e6a5c7946925}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{81c6eedd-9696-45b0-8429-e6a5c7946925}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>16</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fdda06de-a2af-467a-8869-679d1bc3b565}">
+		<property name="assetPath">
+			<value>BounceOnForest-004.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>9</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99d7545c-f466-4fce-b26c-8ab6c50e6605}</destination>
+		</relationship>
+	</object>
+</objects>

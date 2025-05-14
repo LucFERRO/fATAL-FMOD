@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{343d8883-b2f2-4b2e-8189-d8294af30080}">
+		<property name="assetPath">
+			<value>BounceOnPlain.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>21.576000000000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{99d7545c-f466-4fce-b26c-8ab6c50e6605}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="Workspace" id="{b8f514c1-f417-4093-9204-a425b56f4e41}">
+		<property name="builtBanksOutputDirectory">
+			<value>../../fATAL_Toy/Assets/Sounds/Raw</value>
+		</property>
+		<relationship name="masterEventFolder">
+			<destination>{c1a37293-43f6-4d81-b504-660bea8d79e5}</destination>
+		</relationship>
+		<relationship name="masterTagFolder">
+			<destination>{551dd9c1-165d-4006-8197-826e1e20d0e9}</destination>
+		</relationship>
+		<relationship name="masterEffectPresetFolder">
+			<destination>{3843a6c5-a8f5-47c4-87b6-6e99536a77c2}</destination>
+		</relationship>
+		<relationship name="masterParameterPresetFolder">
+			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
+		</relationship>
+		<relationship name="masterBankFolder">
+			<destination>{488a2e8b-8a49-4a3a-b687-3d14c3621a34}</destination>
+		</relationship>
+		<relationship name="masterSandboxFolder">
+			<destination>{723a60a8-9abb-4270-9314-84f136d272f2}</destination>
+		</relationship>
+		<relationship name="masterAssetFolder">
+			<destination>{99d7545c-f466-4fce-b26c-8ab6c50e6605}</destination>
+		</relationship>
+		<relationship name="mixer">
+			<destination>{c259331b-a9a7-485b-867d-e7940f095415}</destination>
+		</relationship>
+		<relationship name="profilerSessionFolder">
+			<destination>{0decd46b-0708-4933-9736-0c966f90903b}</destination>
+		</relationship>
+		<relationship name="platforms">
+			<destination>{bce1a91a-bf3a-4e82-8d4a-35a4da3c30b1}</destination>
+		</relationship>
+	</object>
+</objects>
