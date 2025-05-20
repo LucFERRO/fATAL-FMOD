@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Workspace" id="{b8f514c1-f417-4093-9204-a425b56f4e41}">
 		<property name="builtBanksOutputDirectory">
-			<value>../../fATAL/Assets/Sounds/Raw</value>
+			<value>../../../../../../../Projets Unity/fATAL_Toy/Assets/Sounds/Raw</value>
 		</property>
 		<relationship name="masterEventFolder">
 			<destination>{c1a37293-43f6-4d81-b504-660bea8d79e5}</destination>
