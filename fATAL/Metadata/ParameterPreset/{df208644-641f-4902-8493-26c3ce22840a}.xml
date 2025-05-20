@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{df208644-641f-4902-8493-26c3ce22840a}">
+		<property name="name">
+			<value>AmbientBalance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e4d47edf-f03c-40b4-b402-296f5f144061}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e4d47edf-f03c-40b4-b402-296f5f144061}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>5</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Neutral</value>
+			<value>Forest</value>
+			<value>Lake</value>
+			<value>Mountain</value>
+			<value>Plain</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

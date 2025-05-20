@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{645b2f4e-109c-4512-bab1-9eec96bc52ce}">
 		<property name="name">
-			<value>Music</value>
+			<value>MusicOld</value>
 		</property>
 		<property name="outputFormat">
 			<value>5</value>
@@ -106,9 +106,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{5208f35a-0464-454f-9516-7657a1c968e4}">
-		<property name="volume">
-			<value>10</value>
-		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>

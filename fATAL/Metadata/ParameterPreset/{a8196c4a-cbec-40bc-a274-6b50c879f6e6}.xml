@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a8196c4a-cbec-40bc-a274-6b50c879f6e6}">
+		<property name="name">
+			<value>AmbianceBalance</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{8d44b5db-8f02-4d40-a322-0947fdaf373a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{8d44b5db-8f02-4d40-a322-0947fdaf373a}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>12</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
