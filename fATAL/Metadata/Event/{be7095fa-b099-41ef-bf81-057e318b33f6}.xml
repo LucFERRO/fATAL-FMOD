@@ -72,6 +72,7 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{0b85c42d-78dc-4eda-a1dd-ed814f4435be}</destination>
+			<destination>{eca2e23c-882c-477c-94fb-d0a0fc189c25}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{10497695-5ae6-48ab-a0e7-036663c26950}">
@@ -96,19 +97,13 @@
 			<value>true</value>
 		</property>
 		<property name="triggerProbability">
-			<value>75</value>
+			<value>50</value>
 		</property>
 		<property name="length">
 			<value>200.232</value>
 		</property>
-		<property name="delayType">
-			<value>0</value>
-		</property>
-		<property name="minimumTimeDelay">
-			<value>30000</value>
-		</property>
-		<property name="maximumTimeDelay">
-			<value>60000</value>
+		<property name="quantizationInterval">
+			<value>8</value>
 		</property>
 		<property name="looping">
 			<value>true</value>
@@ -137,6 +132,20 @@
 		</property>
 		<property name="length">
 			<value>200.232</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{cd74d753-e13c-40b4-9ee1-075c1945aec2}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{14802230-3096-465e-a844-4daeedf594e3}</destination>
+		</relationship>
+	</object>
+	<object class="TempoMarker" id="{eca2e23c-882c-477c-94fb-d0a0fc189c25}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="tempo">
+			<value>80</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{cd74d753-e13c-40b4-9ee1-075c1945aec2}</destination>

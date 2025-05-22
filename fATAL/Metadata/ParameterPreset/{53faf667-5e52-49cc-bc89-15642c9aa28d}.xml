@@ -1,27 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{a49f71f5-b9e2-4736-b21e-3be21aefc828}">
+	<object class="ParameterPreset" id="{53faf667-5e52-49cc-bc89-15642c9aa28d}">
 		<property name="name">
-			<value>LockState</value>
+			<value>UIState</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{3e4647bb-f3a4-450d-a029-10dbd8454ff9}</destination>
+			<destination>{f11b317c-11f8-47f2-8cdb-d27d2d141eeb}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{3e4647bb-f3a4-450d-a029-10dbd8454ff9}">
+	<object class="GameParameter" id="{f11b317c-11f8-47f2-8cdb-d27d2d141eeb}">
 		<property name="parameterType">
 			<value>2</value>
 		</property>
 		<property name="maximum">
-			<value>3</value>
+			<value>7</value>
 		</property>
 		<property name="enumerationLabels">
-			<value>Lock</value>
-			<value>Unlock</value>
-			<value>NewLock</value>
+			<value>InventoryOpen</value>
+			<value>InventoryClosed</value>
+			<value>FaceHover</value>
+			<value>FacePick</value>
+			<value>FaceDRop</value>
+			<value>DropDenied</value>
+			<value>NewUnlock</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>

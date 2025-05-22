@@ -1,27 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="ParameterPreset" id="{a49f71f5-b9e2-4736-b21e-3be21aefc828}">
+	<object class="ParameterPreset" id="{dcfde6f7-efa6-4457-8e5c-baff86db01bd}">
 		<property name="name">
-			<value>LockState</value>
+			<value>TransitionLevel</value>
 		</property>
 		<relationship name="folder">
 			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{3e4647bb-f3a4-450d-a029-10dbd8454ff9}</destination>
+			<destination>{65fcbfb2-d06e-4512-9cc3-08cb811b515b}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{3e4647bb-f3a4-450d-a029-10dbd8454ff9}">
+	<object class="GameParameter" id="{65fcbfb2-d06e-4512-9cc3-08cb811b515b}">
 		<property name="parameterType">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="maximum">
 			<value>3</value>
-		</property>
-		<property name="enumerationLabels">
-			<value>Lock</value>
-			<value>Unlock</value>
-			<value>NewLock</value>
 		</property>
 		<property name="initialValue">
 			<value>0</value>
