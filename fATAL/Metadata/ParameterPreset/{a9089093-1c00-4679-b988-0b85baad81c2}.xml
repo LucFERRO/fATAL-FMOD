@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{a9089093-1c00-4679-b988-0b85baad81c2}">
+		<property name="name">
+			<value>UnlockLockedLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{d69d1a54-ff37-49a1-839b-fa22827345b0}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{a97ffb78-27f8-4f50-a8f6-b1ce804e0847}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{a97ffb78-27f8-4f50-a8f6-b1ce804e0847}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="minimum">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>6</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+	</object>
+</objects>
